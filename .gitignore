@@ -3,5 +3,6 @@
 .project
 .settings
 bin
+gen
 libs
 *.class
