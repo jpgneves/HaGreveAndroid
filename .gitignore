@@ -2,7 +2,10 @@
 .classpath
 .project
 .settings
-bin
-gen
-libs
+*.apk
+*.ap_
+*.dex
 *.class
+bin/
+gen/
+local.properties
