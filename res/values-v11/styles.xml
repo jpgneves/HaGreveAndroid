@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightThemeSelector" parent="android:Theme.Holo.Light"></style>
+    <style name="DarkThemeSelector" parent="android:Theme.Holo"></style>
+    <style name="DetailHeaderStyle" parent="android:Widget.TextView">
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+</resources>

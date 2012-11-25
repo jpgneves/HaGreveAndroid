@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_cat_ui">
+        <CheckBoxPreference android:summaryOn="@string/pref_theme_light_desc" android:summaryOff="@string/pref_theme_dark_desc" android:key="pref_theme" android:title="@string/pref_theme_label" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_conn">
+        <CheckBoxPreference android:summaryOn="@string/yes" android:disableDependentsState="false" android:summaryOff="@string/no" android:key="pref_conn_autoupdate_toggle" android:title="@string/pref_conn_autoupdate_toggle_title" android:defaultValue="true" android:summary="@string/pref_conn_autoupdate_toggle"/>
+        <ListPreference android:entries="@array/refresh_option_labels" android:entryValues="@array/refresh_option_values" android:title="@string/pref_conn_autoupdate_interval" android:dependency="pref_conn_autoupdate_toggle" android:key="pref_conn_autoupdate_interval" android:defaultValue="300000" android:summary="@string/pref_conn_autoupdate_summary"/>
+        <CheckBoxPreference android:key="pref_conn_notifications" android:title="@string/pref_conn_notifications"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/detail_dates_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DetailHeaderStyle"
+        android:text="@string/dates_text" />
+    
+    <TextView
+        android:id="@+id/detail_dates_start_text"
+        style="@style/detail_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_description" />
+    
+    <TextView
+        android:id="@+id/detail_dates_end_text"
+        style="@style/detail_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_description" />
+    
+    <TextView
+        android:id="@+id/detail_companies_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DetailHeaderStyle"
+        android:text="@string/company_title" />
+    
+    <TextView
+        android:id="@+id/detail_companies_text"
+        style="@style/detail_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_description" />
+    
+    <TextView
+        android:id="@+id/detail_description_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DetailHeaderStyle"
+        android:text="@string/description_title" />
+    
+    <TextView
+        android:id="@+id/detail_description_text"
+        style="@style/detail_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_description" />
+
+</LinearLayout>

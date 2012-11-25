@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkBar"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:contentDescription="@string/icon_content_description"
+            android:src="@drawable/hagreve_launcher" />
+        
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@color/DarkBar"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.hagreve.android.fragments.HaGreveDetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <!-- Preview: layout=@layout/detail_fragment_layout -->
+    </fragment>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightThemeSelector" parent="android:Theme.Light.NoTitleBar"></style>
+    <color name="LightGrey">#AAA</color>
+    <color name="DarkBar">#333</color>
+    <!-- <color name="LightestGrey">#EEE</color>  -->
+    
+    <style name="detail_text_style" parent="android:Widget.TextView">
+        <item name="android:layout_margin">5dip</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="DarkThemeSelector" parent="android:Theme.NoTitleBar"></style>
+    <style name="DetailHeaderStyle" parent="android:Widget.TextView">
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

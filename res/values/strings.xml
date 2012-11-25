@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hoje Há Greve?</string>
+    <string name="menu_refresh">Actualizar</string>
+    <string name="menu_options">Definições</string>
+    <string name="until_text">Até</string>
+    <string name="default_day_text">00</string>
+    <string name="default_month_text">XXX</string>
+    <string name="default_full_date">DD/MM/YYYY</string>
+    <string name="default_company_name">COMPANY</string>
+    <string name="default_description">XXX</string>
+    <string name="icon_content_description">HaGreve Icon</string>
+    <string name="no_strikes">Woohoo! Não há greves, podemos ir trabalhar!</string>
+    <string name="source_button_label">Fonte</string>
+    <string name="share_button_label">Partilhar</string>
+    <string name="all_day_text">Todo o dia</string>
+    <string name="dates_text">Datas</string>
+    <string name="company_title">Empresa(s)</string>
+    <string name="description_title">Descrição</string>
+    <string name="loading_text">A carregar&#8230;</string>
+    <string name="version">1.0.2</string>
+    <string name="canceled_description">Desconvocada</string>
+    <string name="pref_theme_label">Tema</string>
+    <string name="pref_theme_dark_desc">Escuro</string>
+    <string name="pref_theme_light_desc">Claro</string>
+    <string name="pref_cat_ui">Aspecto</string>
+    <string name="pref_cat_conn">Conectividade</string>
+    <string name="pref_conn_autoupdate_toggle_title">Dados</string>
+    <string name="pref_conn_autoupdate_toggle">Actualizar automaticamente?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="pref_conn_autoupdate_interval">Intervalo</string>
+    <string name="pref_conn_autoupdate_summary">Intervalo de actualização</string>
+    <!-- <string name="update_notification">Nova greve</string> -->
+    <string name="pref_conn_notifications">Notificações</string>
+    <string name="no_connection">Impossível estabelecer ligação aos nossos servidores. Por favor tente de novo.</string>
+
+</resources>
