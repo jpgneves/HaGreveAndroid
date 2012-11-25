@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/refresh" android:icon="@drawable/ic_refresh_dark" android:title="@string/menu_refresh" android:showAsAction="ifRoom"></item>
-    <item android:id="@+id/options" android:icon="@drawable/ic_options_dark" android:title="@string/menu_options" android:showAsAction="ifRoom"></item>
-    
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh_dark"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_refresh">
+    </item>
+    <item
+        android:id="@+id/options"
+        android:icon="@drawable/ic_options_dark"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_options">
+    </item>
 
 </menu>

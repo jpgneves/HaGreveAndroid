@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/detail_source_button" android:showAsAction="ifRoom" android:icon="@drawable/ic_source_button_dark" android:title="@string/source_button_label"></item>
-    <item android:id="@+id/detail_share_button" android:showAsAction="ifRoom" android:actionProviderClass="android.widget.ShareActionProvider" android:icon="@drawable/ic_share_button_dark" android:title="@string/share_button_label"></item>
-    
+
+    <item
+        android:id="@+id/detail_source_button"
+        android:icon="@drawable/ic_source_button_dark"
+        android:showAsAction="ifRoom"
+        android:title="@string/source_button_label">
+    </item>
+    <item
+        android:id="@+id/detail_share_button"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@drawable/ic_share_button_dark"
+        android:showAsAction="ifRoom"
+        android:title="@string/share_button_label">
+    </item>
 
 </menu>

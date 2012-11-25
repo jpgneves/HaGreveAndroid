@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    
+
     <fragment
         android:id="@+id/list_fragment"
         android:name="com.hagreve.android.fragments.HaGreveListFragment"

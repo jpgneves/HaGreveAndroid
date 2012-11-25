@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/detail_source_button" android:showAsAction="ifRoom" android:icon="@drawable/ic_source_button" android:title="@string/source_button_label"></item>
-    <item android:id="@+id/detail_share_button" android:showAsAction="ifRoom"></item>
-    
+
+    <item
+        android:id="@+id/detail_source_button"
+        android:icon="@drawable/ic_source_button"
+        android:showAsAction="ifRoom"
+        android:title="@string/source_button_label">
+    </item>
+    <item
+        android:id="@+id/detail_share_button"
+        android:showAsAction="ifRoom">
+    </item>
 
 </menu>

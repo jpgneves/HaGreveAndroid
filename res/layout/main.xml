@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
@@ -10,7 +10,7 @@
         android:background="@color/DarkBar"
         android:paddingBottom="5dip"
         android:paddingTop="5dip" >
-        
+
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="wrap_content"
@@ -18,7 +18,7 @@
             android:layout_marginLeft="5dip"
             android:contentDescription="@string/icon_content_description"
             android:src="@drawable/hagreve_launcher" />
-        
+
         <TextView
             android:id="@+id/app_title"
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:textColor="@android:color/white"
             android:textSize="25sp" />
     </LinearLayout>
-    
+
     <fragment
         android:id="@+id/list_fragment"
         android:name="com.hagreve.android.fragments.HaGreveListFragment"
